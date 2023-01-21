@@ -11,10 +11,10 @@ export class AppComponent {
   number2 : number = 0;
   result : number = 0;
 
-  sumar(event: Event):void {
+  sumar():void {
     this.result = this.number1 + this.number2;
   }
-  restar(event: Event):void {
+  restar():void {
     this.result = this.number1 - this.number2;
   }
 }
